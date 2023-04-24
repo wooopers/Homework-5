@@ -1,7 +1,7 @@
 # Homework-5
 
 ---
-permalink: /index.html
+permalink: https://github.com/wooopers/Homework-5/blob/main/wooopers.github.io/index.html
 ---
 sources:
 
