@@ -1,5 +1,8 @@
 # Homework-5
 
+---
+permalink: /index.html
+---
 sources:
 
 https://stackoverflow.com/questions/8398897/how-to-get-current-date-in-jquery
