@@ -2,12 +2,6 @@
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
 $(function (jQuery) {
-  // TODO: Add a listener for click events on the save button. This code should
-  // use the id in the containing time-block as a key to save the user input in
-  // local storage. HINT: What does `this` reference in the click listener
-  // function? How can DOM traversal be used to get the "hour-x" id of the
-  // time-block containing the button that was clicked? How might the id be
-  // useful when saving the description in local storage?
   // Save click events
   $(function() {
     // Add click event listener to save button
@@ -52,7 +46,7 @@ $(function (jQuery) {
     localStorage.setItem("myKey", "myValue");
   } else {  
     // Storage is not supported
-    alert("Sorry, your browser does not support web storage...");
+    alert("Warning, your browser does not support web storage...");
   }
 
   
